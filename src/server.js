@@ -70,6 +70,7 @@ app.get('/post/:id', async (req, res) => {
     res.render('view-news',{post: post});
 });
 
+//comentario teste
 
 app.get('/', async (req, res) => {
 

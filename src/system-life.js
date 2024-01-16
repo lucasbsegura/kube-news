@@ -50,5 +50,7 @@ var healthMid = function (req, res, next) {
     }   
 };
 
+//comment test 2
+
 exports.routers = router;
 exports.middlewares = { healthMid };
